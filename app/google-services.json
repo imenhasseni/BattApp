@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "360001246635",
+    "firebase_url": "https://battapp-266207.firebaseio.com",
+    "project_id": "battapp-266207",
+    "storage_bucket": "battapp-266207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360001246635:android:b16cfa71884a0bc5e12eee",
+        "android_client_info": {
+          "package_name": "com.example.formation1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360001246635-njn53qefruk4qb9s10u9tppia33n65fl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgU8DQWfKkwYpt31unhWvZHyh91imD4pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360001246635-njn53qefruk4qb9s10u9tppia33n65fl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

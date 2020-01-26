@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+android:id="@+id/home"
+android:icon="@drawable/username"
+android:title="home"
+app:cnb_iconColor="@color/coloryellow"/>
+    <item
+        android:id="@+id/partner"
+        android:icon="@drawable/partner_position"
+        android:title="search"
+        app:cnb_iconColor="@color/coloryellow"/>
+    <item
+        android:id="@+id/localisation"
+        android:icon="@drawable/geolocalisation"
+        android:title="localisation"
+        app:cnb_iconColor="@color/coloryellow"/>
+    <item
+        android:id="@+id/addlocation"
+        android:icon="@drawable/add_location"
+        android:title="addlocalisation"
+        app:cnb_iconColor="@color/coloryellow"/>
+
+</menu>

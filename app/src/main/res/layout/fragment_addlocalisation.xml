@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    tools:context=".Fragment.AddlocalisationFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Location" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_inscription"
+        android:orientation="vertical"
+        android:padding="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_logo">
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_1"
+            android:drawableStart="@drawable/username"
+            android:drawablePadding="10dp"
+            android:hint="username"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/Adresse"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_1"
+            android:drawableStart="@drawable/adress"
+            android:drawablePadding="10dp"
+            android:hint="Adresse"
+            android:inputType="textLongMessage"
+            android:paddingStart="10dp" />
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_1"
+            android:drawablePadding="10dp"
+            android:drawableStart="@drawable/calendar"
+            android:focusableInTouchMode="false"
+            android:hint="Date"
+            android:paddingStart="10dp" />
+
+        <Spinner
+            android:entries="@array/etat"
+            android:id="@+id/spinneretat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:drawablePadding="10dp"
+            android:paddingStart="10dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+
+        android:id="@+id/savezone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_inscription"
+        android:backgroundTint="@color/colorblack"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:text="save"
+        android:textColor="@color/colorwhite"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_footer" />
+
+</LinearLayout>
